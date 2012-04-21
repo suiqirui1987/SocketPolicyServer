@@ -1,0 +1,3 @@
+gcc -levent -lz -lrt -lpthread -lm -lc -Wall -g -o sockpol sockpol.c
+root@htzy:/tmp/1# vi /etc/ld.so.conf
+root@htzy:/tmp/1# /sbin/ldconfig
